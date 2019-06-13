@@ -1,0 +1,90 @@
+<html>
+<head>
+	<title>Энциклопедия собак</title>
+    	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<script type="text/javascript">
+		function openbox(id){
+			display = document.getElementById(id).style.display;
+			if(display=='none'){
+				document.getElementById(id).style.display='block';
+
+			}
+			else{
+				document.getElementById(id).style.display='none';
+			}
+		}
+	</script>
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+	<script type="text/javascript">
+	$(window).load(function() {
+        	$('#slider').nivoSlider();
+	});
+    </script>
+</head>
+<body>
+	<div id="box1">
+		<div id="wrapper">
+			<div class="slider-wrapper theme-default">
+				<div id="slider" class="nivoSlider">
+					<img src="img/1.png" data-thumb="img/1.png" alt="" title="<b>Далматин</b> и <b>Голден ретривер</b><br>Далматин — достаточно крупная, сильная и выносливая собака, способная преодолевать большие расстояния.<br>Голден ретривер — выносливая и энергичная собака, обладает хорошей памятью и чутьём, которое позволяет ей прекрасно работать как на суше, так и на воде."/>
+					<img src="img/2.png" data-thumb="img/2.png" alt="" title="<b>Сибирский хаски</b> — была выведена в Сибири племенами чукчей около четырех тысяч лет назад как ездовая собака" />
+					<img src="img/3.png" data-thumb="img/3.png" alt="" title="<b>Английский бульдоги</b> — обладает ярко выраженной индивидуальностью и считается национальной собакой Англии, воплощая черты, часто приписываемые «истинному джентльмену»</b>" data-transition="slideInLeft" />
+					<img src="img/4.png" data-thumb="img/4.png" alt="" title="<b>Мопс</b> — собака с живым, веселым и при этом уравновешенным характером, благородная и привязчивая к хозяину." />
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="box2">
+		<div id="content">
+			<div id="content_top"><b>Флеш игры</b></div>
+			<div id="uhod_2"><a href="#" onclick="openbox('box'); return false">Съедобное-несъедобное</a></div>
+			<div id="box" style="display: none;">
+				<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="550" height="400" id="Untitled-5" align="middle">
+					<param name="allowScriptAccess" value="sameDomain" />
+					<param name="movie" value="Untitled-5.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#ffffff" /><embed src="flash/Untitled-5.swf" quality="high" bgcolor="#FFF5EE" width="550" height="400" name="Untitled-5" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+				</object>
+			</div>
+			
+			<div id="uhod_2"><a href="#" onclick="openbox('box23'); return false">Пазлы</a></div>
+			<div id="box23" style="display: none;">
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="550" height="400" id="Untitled-2" align="middle">
+<param name="allowScriptAccess" value="sameDomain" />
+<param name="movie" value="Untitled-2.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#ffffff" /><embed src="flash/Untitled-2.swf" quality="high" bgcolor="#FFF5EE" width="550" height="400" name="Untitled-2" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+</object>
+			</div>
+			
+			<div id="uhod_2"><a href="#" onclick="openbox('box24'); return false">Найди породу</a></div>
+			<div id="box24" style="display: none;">
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="550" height="400" id="Untitled-1" align="middle">
+<param name="allowScriptAccess" value="sameDomain" />
+<param name="movie" value="Untitled-1.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#ffffff" /><embed src="flash/Untitled-1.swf" quality="high" bgcolor="#FFF5EE" width="550" height="400" name="Untitled-1" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+</object>
+			</div>
+		</div>
+		<div id="menu">
+			<div id="menu_top"></div>
+			<ul>
+				<li><a href="index.html">Породы собак</a></li>
+				<li><a href="klichki.html">Клички собак</a></li>
+				<li><a href="uhod.html">Содержание и уход</a></li>
+				<li><a href="dressirovka.html">Дрессировка собак</a></li>
+				<li><a href="bolezni.html">Болезни собак</a></li>
+				<li><a href="vistavki.html">Выставки</a></li>
+				<li><a href="flash.html">Флеш игры</a></li>
+				<li><a href="photogalereya.html">Фотогалерея</a></li>
+			</ul>
+		</div>
+	</div>
+		<div id="footer">
+			<div id="footer_left"><a href="about.html">О сайте</a>
+				<hr noshade style="height: 12px; width: 0.4px; float: left; background: #fff; margin-left: 5px; position: relative; bottom: 6px;">
+				<a href="feedback.html">Обратная звязь</a>
+			</div>
+			<div id="footer_right">
+				© 2013, "Энциклопедия собак"
+			</div>
+		</div>
+</body>
+</html>
