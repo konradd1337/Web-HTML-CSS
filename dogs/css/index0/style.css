@@ -1,0 +1,16 @@
+body {
+background-image: url(../../img/index0/fon.jpg);
+background-position: center;
+background-repeat: no-repeat;
+}
+
+#box {
+width: 800px;
+margin: 0 auto;
+}
+
+#box1 {
+position: absolute;
+top: 50%;
+margin-top: -200px;
+}
