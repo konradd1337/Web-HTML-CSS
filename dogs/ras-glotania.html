@@ -1,0 +1,77 @@
+<html>
+<head>
+	<title>Энциклопедия собак</title>
+    	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<script type="text/javascript">
+		function openbox(id){
+			display = document.getElementById(id).style.display;
+			if(display=='none'){
+				document.getElementById(id).style.display='block';
+
+			}
+			else{
+				document.getElementById(id).style.display='none';
+			}
+		}
+	</script>
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+	<script type="text/javascript">
+	$(window).load(function() {
+        	$('#slider').nivoSlider();
+	});
+    </script>
+</head>
+<body>
+	<div id="box1">
+		<div id="wrapper">
+			<div class="slider-wrapper theme-default">
+				<div id="slider" class="nivoSlider">
+					<img src="img/1.png" data-thumb="img/1.png" alt="" title="<b>Далматин</b> и <b>Голден ретривер</b><br>Далматин — достаточно крупная, сильная и выносливая собака, способная преодолевать большие расстояния.<br>Голден ретривер — выносливая и энергичная собака, обладает хорошей памятью и чутьём, которое позволяет ей прекрасно работать как на суше, так и на воде."/>
+					<img src="img/2.png" data-thumb="img/2.png" alt="" title="<b>Сибирский хаски</b> — была выведена в Сибири племенами чукчей около четырех тысяч лет назад как ездовая собака" />
+					<img src="img/3.png" data-thumb="img/3.png" alt="" title="<b>Английский бульдоги</b> — обладает ярко выраженной индивидуальностью и считается национальной собакой Англии, воплощая черты, часто приписываемые «истинному джентльмену»</b>" data-transition="slideInLeft" />
+					<img src="img/4.png" data-thumb="img/4.png" alt="" title="<b>Мопс</b> — собака с живым, веселым и при этом уравновешенным характером, благородная и привязчивая к хозяину." />
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="box2">
+		<div id="content">
+			<div id="content_top"><b>Болезни собак</b></div>
+			<p>Дисфагия – расстройство глотания вследствие морфологических, механических или функциональных нарушений в области рта, глотки, пищевода, головного мозга, черепно-мозговых нервов.
+</p>
+<b>Причины</b>
+<p>Незаращение твердого неба, инородное тело в ротовой полости или глотке, крикофарингеальная ахалазия, непроходимость пищевода вследствие попадания инородного тела, сужения, опухоли; дивертикул пищевода, разрыв пищевода, ахалазия кардии, пищеводный рефлюкс, миастения, бешенство.
+</p>
+<p>Чаще всего дисфагия бывает вследствие попадания инородного тела.
+</p>
+<b>Симптоматическая терапия</b>
+<p>До устранения причины расстройства глотания назначают парентеральное питание: внутривенно или подкожно 5% р-р глюкозы в суточной дозе до 40 мл/кг (желательно на 100 мл раствора добавлять 1 ЕД инсулина), раствор гидролизина; внутривенно – альвезин, липофундин.
+</p>	
+	</div>
+		<div id="menu">
+			<div id="menu_top"></div>
+			<ul>
+				<li><a href="index.html">Породы собак</a></li>
+				<li><a href="klichki.html">Клички собак</a></li>
+				<li><a href="uhod.html">Содержание и уход</a></li>
+				<li><a href="dressirovka.html">Дрессировка собак</a></li>
+				<li><a href="bolezni.html">Болезни собак</a></li>
+				<li><a href="vistavki.html">Выставки</a></li>
+				<li><a href="flash.html">Флеш игры</a></li>
+				<li><a href="photogalereya.html">Фотогалерея</a></li>
+			</ul>
+		</div>
+	</div>
+		<div id="footer">
+			<div id="footer_left"><a href="about.html">О сайте</a>
+				<hr noshade style="height: 12px; width: 0.4px; float: left; background: #fff; margin-left: 5px; position: relative; bottom: 6px;">
+				<a href="feedback.html">Обратная звязь</a>
+			</div>
+			<div id="footer_right">
+				© 2013, "Энциклопедия собак"
+			</div>
+		</div>
+</body>
+</html>
